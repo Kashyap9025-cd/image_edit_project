@@ -206,6 +206,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (activeItem) {
                 activeItem.classList.remove('active');
             }
+
+            document.querySelector('.sidebar').classList.remove('expanded');
+            document.querySelector('.main-content').classList.remove('expanded');
         });
     });
 
